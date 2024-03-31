@@ -6,9 +6,12 @@
   home.username = "neck";
   home.homeDirectory = "/home/neck";
 
-  # This value determines the Home Manager release that your configuration is
-  # compatible with.
+  # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   home.stateVersion = "23.11"; # Please read the comment before changing.
+
+  imports = [
+    ./features/zsh
+  ];
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
