@@ -11,8 +11,10 @@
     syntaxHighlighting.enable = true;
     autocd = true;
     shellAliases = import ./aliases.nix;
-    history.extended = true;
-
+    history = {
+      extended = true;
+      expireDuplicatesFirst = true;
+    };
 
     oh-my-zsh = {
       enable = true;
