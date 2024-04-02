@@ -13,24 +13,7 @@
     ./features/dev
     ./features/zsh
     ./features/fzf.nix
-  ];
-
-  # The home.packages option allows you to install Nix packages into your
-  # environment.
-  home.packages = [
-    pkgs.neofetch
-    # fancy ls
-    pkgs.lsd
-    # fancy grep
-    pkgs.ripgrep
-    # fancy find
-    pkgs.fd
-    # A command-line benchmarking tool
-    pkgs.hyperfine
-    # fancy cat
-    pkgs.bat
-    pkgs.neovim
-
+    ./features/terminal.nix
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
