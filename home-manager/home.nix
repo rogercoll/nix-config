@@ -10,6 +10,7 @@
   home.stateVersion = "23.11"; # Please read the comment before changing.
 
   imports = [
+    ./features/dev
     ./features/zsh
     ./features/fzf.nix
   ];
