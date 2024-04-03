@@ -13,6 +13,7 @@
     ./features/dev
     ./features/zsh
     ./features/gui.nix
+    ./features/tmux.nix
     ./features/fzf.nix
     ./features/terminal.nix
   ];
