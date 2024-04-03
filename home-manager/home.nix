@@ -12,6 +12,7 @@
   imports = [
     ./features/dev
     ./features/zsh
+    ./features/gui.nix
     ./features/fzf.nix
     ./features/terminal.nix
   ];
