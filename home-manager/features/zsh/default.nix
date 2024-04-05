@@ -20,6 +20,7 @@
       enable = true;
       plugins =
         [
+          "vi-mode"
           "aws"
           "cp"
           "docker"
