@@ -57,6 +57,14 @@
     xkbVariant = "";
   };
 
+  # Configure sound
+  security.rtkit.enable = true;
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    pulse.enable = true;
+  };
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.neck = {
     isNormalUser = true;

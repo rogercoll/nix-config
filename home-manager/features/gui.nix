@@ -6,6 +6,7 @@
       vlc
       kitty
       bemenu
+      pavucontrol
     ];
   };
 }
