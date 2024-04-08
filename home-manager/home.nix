@@ -14,9 +14,10 @@
     ./features/zsh
     ./features/gui.nix
     ./features/git.nix
-    #./features/tmux.nix
+    ./features/tmux.nix
     ./features/fzf.nix
     ./features/terminal.nix
+    ./features/browser.nix
   ];
 
  # Home Manager is pretty good at managing dotfiles. The primary way to manage

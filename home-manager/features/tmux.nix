@@ -8,7 +8,7 @@ let
         owner = "tmux-plugins";
         repo = "tmux-sensible";
         rev = "25cb91f42d020f675bb0a2ce3fbd3a5d96119efa";
-        sha256 = "sha256-cPZCV8xk9QpU49/7H8iGhQYK6JwWjviL29eWabuqruc=";
+        sha256 = "sha256-sw9g1Yzmv2fdZFLJSGhx1tatQ+TtjDYNZI5uny0+5Hg=";
       };
     };
     base16-tmux = pkgs.tmuxPlugins.mkTmuxPlugin
