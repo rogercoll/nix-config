@@ -62,6 +62,7 @@
     isNormalUser = true;
     description = "Neck";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh;
     packages = with pkgs; [];
   };
 
@@ -74,9 +75,9 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
+    vim 
   ];
+  programs.zsh.enable = true;
 
   programs.hyprland = {
     enable = true;
