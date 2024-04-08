@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   home = {
     packages = with pkgs; [
+      wget
       neofetch
       lsd # fancy ls
       ripgrep # fancy grep
