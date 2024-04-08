@@ -8,6 +8,8 @@
       hyperfine  # A command-line benchmarking tool
       bat # fancy cat
       neovim
+      htop
+      stow
     ];
   };
 

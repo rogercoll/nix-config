@@ -4,6 +4,9 @@
       # TODO: add hyprland
       wl-clipboard
       vlc
+      firefox
+      kitty
+      bemenu
     ];
   };
 }
