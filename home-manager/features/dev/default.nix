@@ -13,6 +13,8 @@
   home.packages = with pkgs;
     [
       stern
+      gcc
+      gnumake
     ]
     ++ lib.optionals pkgs.stdenv.isLinux [
       rr
