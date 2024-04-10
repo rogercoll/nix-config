@@ -12,6 +12,7 @@
   ## Other packages
   home.packages = with pkgs;
     [
+      lua-language-server
       stern
       gcc
       gnumake

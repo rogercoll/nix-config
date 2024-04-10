@@ -5,6 +5,7 @@
   };
 
   home.packages = with pkgs; [
+    gopls
     gomodifytags
     impl
     golangci-lint
