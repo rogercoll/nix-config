@@ -7,6 +7,7 @@
       kitty
       bemenu
       pavucontrol
+      swaylock
     ];
   };
 }
