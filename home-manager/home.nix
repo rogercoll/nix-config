@@ -18,6 +18,7 @@
     ./features/fzf.nix
     ./features/terminal.nix
     ./features/browser.nix
+    ./features/not_free.nix
   ];
 
  # Home Manager is pretty good at managing dotfiles. The primary way to manage

@@ -9,6 +9,7 @@
       pavucontrol
       swaylock
       waybar
+      signal-desktop
     ];
   };
 }
