@@ -27,6 +27,13 @@
 	  ./hosts/desktop/carbon/configuration.nix
          ];
        };
+        lled = nixpkgs.lib.nixosSystem {
+         system = "x86_64-linux";
+         specialArgs = {inherit inputs outputs;};
+         modules = [
+	  ./hosts/desktop/lled/configuration.nix
+         ];
+       };
       };
       homeConfigurations."neck" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
