@@ -2,6 +2,7 @@
   home = {
     packages = with pkgs; [
       unzip
+      zip
       bash
       wget
       neofetch
