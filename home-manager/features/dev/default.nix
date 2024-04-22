@@ -13,6 +13,7 @@
   home.packages = with pkgs;
     [
       lua-language-server
+      yaml-language-server
       stern
       gcc
       gnumake
