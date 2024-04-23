@@ -15,6 +15,7 @@
       htop
       stow
       kmon # A fancy kernel dashboard
+      jq
     ];
   };
 
