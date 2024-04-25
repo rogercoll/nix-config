@@ -60,7 +60,7 @@
   users.users.neck = {
     isNormalUser = true;
     description = "Neck";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     shell = pkgs.zsh;
     packages = with pkgs; [];
   };
@@ -82,7 +82,14 @@
     xwayland.enable = true;
   };
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
+  # Enable Podman and Docker
   virtualisation.podman.enable = true;
+  virtualisation.docker.enable = true;
+  virtualisation.docker.rootless = {
+    enable = true;
+    setSocketVariable = true;
+  };
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
