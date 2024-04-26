@@ -5,11 +5,13 @@
       wl-clipboard
       vlc
       kitty
+      alacritty
       bemenu
       pavucontrol
       swaylock
       waybar
       signal-desktop
+      graphviz
     ];
   };
 }

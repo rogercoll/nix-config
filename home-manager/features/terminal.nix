@@ -16,6 +16,8 @@
       stow
       kmon # A fancy kernel dashboard
       jq
+      dig
+      openssl
     ];
   };
 

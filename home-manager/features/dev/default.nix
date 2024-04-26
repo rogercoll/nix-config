@@ -7,6 +7,7 @@
   imports = [
     ./go.nix
     ./rust.nix
+    ./python.nix
   ];
 
   ## Other packages
@@ -14,9 +15,13 @@
     [
       lua-language-server
       yaml-language-server
+      pyright #Python language server
       stern
       gcc
       gnumake
+
+
+      wishlist
     ]
     ++ lib.optionals pkgs.stdenv.isLinux [
       rr
